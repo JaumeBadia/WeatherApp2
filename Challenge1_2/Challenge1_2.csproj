@@ -92,6 +92,8 @@
     <Compile Include="Common\Converters\BooleanToFalseConverter.cs" />
     <Compile Include="ViewModels\ChangedViewModel.cs" />
     <Compile Include="Models\WeatherJson.cs" />
+    <Compile Include="Models\CityInformation.cs" />
+    <Compile Include="Helpers\CityHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -116,6 +118,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Images\London1.json" />
+    <None Include="Helpers\CountryCode.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Common\Converters\" />
